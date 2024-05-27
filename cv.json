@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Lorenzo Cremonese",
+    "label": "Estudiante en Desarrollo de Aplicaciones Web",
+    "image": "/me.jpg",
+    "email": "lorenzo.cremonese@icloud.com",
+    "phone": "+34 603539416",
+    "url": "/",
+    "summary": "",
+    "location": {
+      "address": "Carrer del Garrofer, 5",
+      "postalCode": "03790",
+      "city": "Orba",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "looreenz",
+        "url": "https://github.com/looreenz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Restaurante NOMADA",
+      "position": "Camarero",
+      "startDate": "2024-04-05",
+      "endDate": null,
+      "summary": "Dénia, A",
+      "highlights": []
+    },
+    {
+      "name": "Rebeldía Blues",
+      "position": "Camarero",
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-19",
+      "summary": "Dénia, A",
+      "highlights": []
+    },
+    {
+      "name": "Chiringuito Mojito",
+      "position": "Camarero",
+      "startDate": "2022-05-21",
+      "endDate": "2022-08-31",
+      "summary": "Dénia, A",
+      "highlights": []
+    }
+  ],
+  "education": [{
+    "institution": "I.E.S Enric Valor",
+    "url": "https://portal.edu.gva.es/03007613/",
+    "area": "CFGS Desarrollo de Aplicaciones Web",
+    "studyType": "CFGS",
+    "startDate": "2023-09-18",
+    "endDate": null,
+    "score": "",
+    "courses": []
+  },
+  {
+    "institution": "I.E.S Historiador Chabàs",
+    "url": "https://portal.edu.gva.es/ieschabas/",
+    "area": "Bachillerato de Ciencias",
+    "studyType": "Bachiller",
+    "startDate": "2022-09-19",
+    "endDate": "2023-05-21",
+    "score": "",
+    "courses": []
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italiano",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Español",
+      "fluency": "Avanzado"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    },
+    {
+      "language": "Valenciano",
+      "fluency": "Avanzado"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Random E-mail Generator",
+      "isActive": true,
+      "description": "Generador de correos casuales",
+      "highlights": [
+        "Ahorra tiempo",
+        "Libera tu casilla"
+      ],
+      "url": "https://random-email-gen-app.vercel.app",
+      "github": "https://github.com/looreenz/random-email-gen-app"
+    }
+  ]
+}
