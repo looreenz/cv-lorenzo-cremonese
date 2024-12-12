@@ -127,20 +127,21 @@
   ],
   "projects": [
     {
+      "name": "StockFlow",
+      "isActive": true,
+      "description": "Software de Gestión de Almacenes",
+      "highlights": ["Gestión de inventarios", "Análisis y reportes avanzados"],
+      "url": "https://stockflow.daw.iesevalorpego.es/",
+      "github": "https://github.com/jocrejor/DWEC-SP3"
+    },
+    {
       "name": "Random E-mail Generator",
       "isActive": true,
       "description": "Generador de correos casuales",
       "highlights": ["Ahorra tiempo", "Libera tu casilla"],
       "url": "https://random-email-gen-app.vercel.app",
       "github": "https://github.com/looreenz/random-email-gen-app"
-    },
-    {
-      "name": "StockFlow",
-      "isActive": true,
-      "description": "Software de Gestión de Almacenes",
-      "highlights": ["Gestión de inventarios", "Análisis y reportes avanzados"],
-      "url": "https://stockflow.daw.iesevalorpego.es/",
-      "github": "https://github.com/looreenz/random-email-gen-app"
     }
+    
   ]
 }
