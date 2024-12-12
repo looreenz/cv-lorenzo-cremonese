@@ -19,6 +19,11 @@
         "network": "GitHub",
         "username": "looreenz",
         "url": "https://github.com/looreenz"
+      },
+      {
+        "network": "X",
+        "username": "looreenz27",
+        "url": "https://x.com/looreenz27"
       }
     ]
   },
@@ -29,118 +34,77 @@
       "startDate": "2024-04-05",
       "endDate": null,
       "summary": "Dénia, A",
-      "highlights": []
-    },
-    {
-      "name": "Rebeldía Blues",
-      "position": "Camarero",
-      "startDate": "2023-06-01",
-      "endDate": "2023-12-19",
-      "summary": "Dénia, A",
-      "highlights": []
-    },
-    {
-      "name": "Chiringuito Mojito",
-      "position": "Camarero",
-      "startDate": "2022-05-21",
-      "endDate": "2022-08-31",
-      "summary": "Dénia, A",
-      "highlights": []
+      "highlights": [],
+      "url": "https://www.nomada.group/restaurante"
     }
   ],
-  "education": [{
-    "institution": "I.E.S Enric Valor",
-    "url": "https://portal.edu.gva.es/03007613/",
-    "area": "CFGS Desarrollo de Aplicaciones Web",
-    "studyType": "CFGS",
-    "startDate": "2023-09-18",
-    "endDate": null,
-    "score": "",
-    "courses": []
-  },
-  {
-    "institution": "I.E.S Historiador Chabàs",
-    "url": "https://portal.edu.gva.es/ieschabas/",
-    "area": "Bachillerato de Ciencias",
-    "studyType": "Bachiller",
-    "startDate": "2022-09-19",
-    "endDate": "2023-05-21",
-    "score": "",
-    "courses": []
-  },
-  {
-    "institution": "I.S.M Giuseppe Verdi",
-    "url": "https://portal.edu.gva.es/ieschabas/",
-    "area": "Conservatorio",
-    "studyType": "",
-    "startDate": "2021-06-01",
-    "endDate": "2017-09-21",
-    "score": "",
-    "courses": []
-  }],
+  "education": [
+    {
+      "institution": "I.E.S Enric Valor",
+      "url": "https://portal.edu.gva.es/03007613/",
+      "area": "CFGS Desarrollo de Aplicaciones Web",
+      "studyType": "CFGS",
+      "startDate": "2023-09-18",
+      "endDate": null,
+      "score": "",
+      "courses": []
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -166,11 +130,16 @@
       "name": "Random E-mail Generator",
       "isActive": true,
       "description": "Generador de correos casuales",
-      "highlights": [
-        "Ahorra tiempo",
-        "Libera tu casilla"
-      ],
+      "highlights": ["Ahorra tiempo", "Libera tu casilla"],
       "url": "https://random-email-gen-app.vercel.app",
+      "github": "https://github.com/looreenz/random-email-gen-app"
+    },
+    {
+      "name": "StockFlow",
+      "isActive": true,
+      "description": "Software de Gestión de Almacenes",
+      "highlights": ["Gestión de inventarios", "Análisis y reportes avanzados"],
+      "url": "https://stockflow.daw.iesevalorpego.es/",
       "github": "https://github.com/looreenz/random-email-gen-app"
     }
   ]
