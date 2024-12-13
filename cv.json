@@ -52,6 +52,26 @@
   ],
   "skills": [
     {
+      "name": "C",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "Master",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": []
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend"]
@@ -65,6 +85,11 @@
       "name": "JavaScript",
       "level": "Master",
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "PHP",
+      "level": "Master",
+      "keywords": []
     },
     {
       "name": "Tailwind",
