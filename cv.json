@@ -21,21 +21,21 @@
         "url": "https://github.com/looreenz"
       },
       {
-        "network": "X",
-        "username": "looreenz27",
-        "url": "https://x.com/looreenz27"
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/lorenzo-cremonese-06b595358/"
       }
     ]
   },
   "work": [
     {
-      "name": "Restaurante NOMADA",
-      "position": "Camarero",
-      "startDate": "2024-04-05",
+      "name": "Delaweb",
+      "position": "Becario",
+      "startDate": "2025-02-05",
       "endDate": null,
-      "summary": "Dénia, A",
+      "summary": "Pedreguer, A",
       "highlights": [],
-      "url": "https://www.nomada.group/restaurante"
+      "url": "/"
     }
   ],
   "education": [
@@ -160,12 +160,12 @@
       "github": "https://github.com/jocrejor/DWEC-SP3"
     },
     {
-      "name": "Random E-mail Generator",
+      "name": "SemantiQ AI",
       "isActive": true,
-      "description": "Generador de correos casuales",
-      "highlights": ["Ahorra tiempo", "Libera tu casilla"],
-      "url": "https://random-email-gen-app.vercel.app",
-      "github": "https://github.com/looreenz/random-email-gen-app"
+      "description": "Sistema de análisis inteligente de documentos",
+      "highlights": ["AI", "RAG"],
+      "url": "https://semantiqai.daw.iesevalorpego.es",
+      "github": "https://github.com/looreenz/SemantiQ-AI"
     }
     
   ]
