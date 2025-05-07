@@ -21,7 +21,19 @@ import { education } from "@cv"
                   <h3>{institution}</h3>
                 </div>
 
-                <time>{years}</time>
+                <div>
+                    <time 
+                      datetime={startDate}
+                      data-title={startDate}>
+                        {startDate}
+                    </time>
+                    {" - "}
+                    <time 
+                      datetime={endDate}
+                      data-title={endDate}>
+                        {endDate}
+                    </time>
+                  </div>
               </header>
 
               <footer>

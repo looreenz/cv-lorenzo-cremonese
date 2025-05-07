@@ -31,8 +31,8 @@
     {
       "name": "Delaweb",
       "position": "Becario",
-      "startDate": "2025-02-05",
-      "endDate": null,
+      "startDate": "05/02/2025",
+      "endDate": "09/05/2025",
       "summary": "Pedreguer, A",
       "highlights": [],
       "url": "/"
@@ -44,8 +44,8 @@
       "url": "https://portal.edu.gva.es/03007613/",
       "area": "CFGS Desarrollo de Aplicaciones Web",
       "studyType": "CFGS",
-      "startDate": "2023-09-18",
-      "endDate": null,
+      "startDate": "18/09/2023",
+      "endDate": "07/06/2025",
       "score": "",
       "courses": []
     }
@@ -92,6 +92,11 @@
       "keywords": []
     },
     {
+      "name": "Laravel",
+      "level": "Master",
+      "keywords": []
+    },
+    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -130,7 +135,13 @@
       "name": "React",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
+    
   ],
   "languages": [
     {
