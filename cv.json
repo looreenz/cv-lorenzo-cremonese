@@ -31,9 +31,36 @@
     {
       "name": "Delaweb",
       "position": "Becario",
-      "startDate": "05/02/2025",
+      "startDate": "24/02/2025",
       "endDate": "09/05/2025",
       "summary": "Pedreguer, A",
+      "highlights": [],
+      "url": "/"
+    },
+    {
+      "name": "Restaurante NOMADA",
+      "position": "Camarero de Barra",
+      "startDate": "05/04/2024",
+      "endDate": "21/02/2025",
+      "summary": "Dénia, A",
+      "highlights": [],
+      "url": "/"
+    },
+    {
+      "name": "Rebeldía Blues",
+      "position": "Camarero",
+      "startDate": "21/05/2023",
+      "endDate": "09/12/2023",
+      "summary": "Dénia, A",
+      "highlights": [],
+      "url": "/"
+    },
+    {
+      "name": "Chiringuito Mojito",
+      "position": "Camarero",
+      "startDate": "22/06/2022",
+      "endDate": "31/08/2022",
+      "summary": "Dénia, A",
       "highlights": [],
       "url": "/"
     }
