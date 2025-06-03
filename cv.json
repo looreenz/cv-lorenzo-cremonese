@@ -36,33 +36,6 @@
       "summary": "Pedreguer, A",
       "highlights": [],
       "url": "/"
-    },
-    {
-      "name": "Restaurante NOMADA",
-      "position": "Camarero de Barra",
-      "startDate": "05/04/2024",
-      "endDate": "21/02/2025",
-      "summary": "Dénia, A",
-      "highlights": [],
-      "url": "/"
-    },
-    {
-      "name": "Rebeldía Blues",
-      "position": "Camarero",
-      "startDate": "21/05/2023",
-      "endDate": "09/12/2023",
-      "summary": "Dénia, A",
-      "highlights": [],
-      "url": "/"
-    },
-    {
-      "name": "Chiringuito Mojito",
-      "position": "Camarero",
-      "startDate": "22/06/2022",
-      "endDate": "31/08/2022",
-      "summary": "Dénia, A",
-      "highlights": [],
-      "url": "/"
     }
   ],
   "education": [
@@ -190,17 +163,9 @@
   ],
   "projects": [
     {
-      "name": "StockFlow",
-      "isActive": true,
-      "description": "Software de Gestión de Almacenes",
-      "highlights": ["Gestión de inventarios", "Análisis y reportes avanzados"],
-      "url": "https://stockflow.daw.iesevalorpego.es/",
-      "github": "https://github.com/jocrejor/DWEC-SP3"
-    },
-    {
       "name": "SemantiQ AI",
       "isActive": true,
-      "description": "Sistema de análisis inteligente de documentos",
+      "description": "Sistema de Análisis Inteligente de Documentos",
       "highlights": ["AI", "RAG"],
       "url": "https://semantiqai.daw.iesevalorpego.es",
       "github": "https://github.com/looreenz/SemantiQ-AI"
