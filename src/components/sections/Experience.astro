@@ -1,7 +1,7 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { work } from "@cv_eng"
+import { work } from "@cv_eng";
 ---
 
 <Section title="Experience">
@@ -9,9 +9,9 @@ import { work } from "@cv_eng"
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
+          const startYear = new Date(startDate).getFullYear();
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate != null ? new Date(endDate).getFullYear() : "Actual";
 
           return (
             <li>
@@ -27,26 +27,29 @@ import { work } from "@cv_eng"
                   </div>
 
                   <div>
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startDate}
+                    <time datetime={startDate} data-title={startDate}>
+                      {startDate}
                     </time>
                     {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endDate}
+                    <time datetime={endDate} data-title={endDate}>
+                      {endDate}
                     </time>
                   </div>
                 </header>
 
                 <footer>
                   <p>{summary}</p>
+                  {highlights.length > 0 && (
+                    <ul>
+                      {highlights.map((highlight) => (
+                        <li>{highlight}</li>
+                      ))}
+                    </ul>
+                  )}
                 </footer>
               </article>
             </li>
-          )
+          );
         }
       )
     }
@@ -54,12 +57,31 @@ import { work } from "@cv_eng"
 </Section>
 
 <style>
-  ul {
+  /* --- LISTA PRINCIPAL (Trabajos) --- */
+  /* Usamos '>' para afectar solo a la lista de primer nivel y no a las anidadas */
+  :global(section) > ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
 
+  /* --- LISTA DE HIGHLIGHTS (Puntos clave) --- */
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio pequeño entre highlights */
+    margin-top: 12px;
+    padding-left: 20px; /* Indentación para las viñetas */
+    list-style-type: disc; /* Forzamos que se vean los puntos */
+  }
+
+  footer li {
+    font-size: 0.85rem;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  /* --- ESTILOS GENERALES DE LA TARJETA --- */
   article h3 {
     font-weight: 500;
     color: #111;
@@ -67,6 +89,7 @@ import { work } from "@cv_eng"
 
   article a {
     color: #111;
+    text-decoration: none;
   }
 
   article a:hover {
@@ -92,6 +115,11 @@ import { work } from "@cv_eng"
     cursor: default;
   }
 
+  /* --- ESTILOS DEL TOOLTIP (Fechas) --- */
+  [data-title] {
+    position: relative;
+  }
+
   [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease-in-out 0.5s;
@@ -102,12 +130,18 @@ import { work } from "@cv_eng"
     content: attr(data-title);
     background-color: #333;
     color: #fff;
-    font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
     position: absolute;
-    padding: .2rem .5rem;
+    padding: 0.2rem 0.5rem;
     bottom: -1.4rem;
     left: 50%;
+    transform: translateX(-50%); /* Esto centra el tooltip perfectamente */
     white-space: nowrap;
     box-shadow: 1px 1px 1px #222222;
     opacity: 0;
@@ -117,10 +151,7 @@ import { work } from "@cv_eng"
     border-radius: 6px;
   }
 
-  [data-title] {
-    position: relative;
-  }
-
+  /* --- RESPONSIVE --- */
   @media (width <= 700px) {
     time {
       text-align: right;

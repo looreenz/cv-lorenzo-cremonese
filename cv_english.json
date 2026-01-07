@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lorenzo Cremonese",
-    "label": "Student in Web Application Development",
+    "label": "Software Engineer",
     "image": "/me.jpg",
     "email": "lorenzo.cremonese@icloud.com",
     "phone": "+34 603539416",
@@ -29,12 +29,36 @@
   },
   "work": [
     {
-      "name": "Delaweb",
-      "position": "Intern",
-      "startDate": "24/02/2025",
-      "endDate": "09/05/2025",
-      "summary": "Pedreguer, A",
-      "highlights": [],
+      "name": "Proyecto UNNE - Freelance",
+      "position": "Lead Frontend Engineer",
+      "startDate": "05/01/2026",
+      "endDate": "Current",
+      "summary": "Leading the frontend design, architecture and development of a platform connecting artisans with businesses.",
+      "highlights": [
+        "Defined and implemented the frontend architecture using Next.js and TypeScript",
+        "Built an accessible, fast and scalable UI with Tailwind CSS (WCAG compliant)",
+        "Integrated APIs and state management with a product-oriented approach",
+        "Optimized performance and technical SEO to improve organic visibility",
+        "Established frontend standards, testing practices and code quality guidelines"
+      ],
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "location": "Remote — Valencia, Spain",
+      "url": "/"
+    },
+    {
+      "name": "Huming Music SL",
+      "position": "Full-Stack Web Developer",
+      "startDate": "16/06/2025",
+      "endDate": "Current",
+      "summary": "Developing and maintaining web applications for the music and artist management platform.",
+      "highlights": [
+        "Developed and maintained full-stack features for internal and user-facing tools",
+        "Worked with frontend and backend technologies to deliver end-to-end solutions",
+        "Improved performance, usability and reliability of existing systems",
+        "Collaborated with product and business teams to ship new features"
+      ],
+      "stack": ["React", "Node.js", "PHP", "MySQL"],
+      "location": "Valencia, Spain",
       "url": "/"
     }
   ],
@@ -109,12 +133,7 @@
     {
       "name": "MySQL",
       "level": "Advanced",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "Git",
@@ -124,12 +143,7 @@
     {
       "name": "GitHub",
       "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
     },
     {
       "name": "React",
@@ -168,6 +182,34 @@
       "highlights": ["AI", "RAG"],
       "url": "https://semantiqai.daw.iesevalorpego.es",
       "github": "https://github.com/looreenz/SemantiQ-AI"
+    },
+    {
+      "name": "Huming Dashboard & Marketplace",
+      "isActive": true,
+      "description": "Music and Artist Management Platform & Marketplace",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "Tailwind CSS"
+      ],
+      "url": "https://www.huming.pro/"
+    },
+    {
+      "name": "Proyecto UNNE",
+      "isActive": true,
+      "description": "Artisan-Business Connection Platform",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "DDD",
+        "Tailwind CSS"
+      ]
     }
   ]
 }
