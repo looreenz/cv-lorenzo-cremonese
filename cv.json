@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Lorenzo Cremonese",
-    "label": "Estudiante en Desarrollo de Aplicaciones Web",
+    "label": "Software Engineer",
     "image": "/me.jpg",
     "email": "lorenzo.cremonese@icloud.com",
     "phone": "+34 603539416",
@@ -29,12 +29,36 @@
   },
   "work": [
     {
-      "name": "Delaweb",
-      "position": "Becario",
-      "startDate": "24/02/2025",
-      "endDate": "09/05/2025",
-      "summary": "Pedreguer, A",
-      "highlights": [],
+      "name": "Proyecto UNNE - Freelance",
+      "position": "Lead Frontend Engineer",
+      "startDate": "2026-01-05",
+      "endDate": "Actualidad",
+      "summary": "Liderando el diseño frontend, la arquitectura y el desarrollo de una plataforma que conecta artesanos con empresas.",
+      "highlights": [
+        "Definición e implementación de la arquitectura frontend utilizando Next.js y TypeScript",
+        "Construcción de una interfaz (UI) accesible, rápida y escalable con Tailwind CSS (cumpliendo WCAG)",
+        "Integración de APIs y gestión de estado con un enfoque orientado al producto",
+        "Optimización del rendimiento y SEO técnico para mejorar la visibilidad orgánica",
+        "Establecimiento de estándares frontend, prácticas de testing y guías de calidad de código"
+      ],
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "location": "Remoto — Valencia, España",
+      "url": "/"
+    },
+    {
+      "name": "Huming Music SL",
+      "position": "Desarrollador Web Full-Stack",
+      "startDate": "2025-06-16",
+      "endDate": "Actualidad",
+      "summary": "Desarrollo y mantenimiento de aplicaciones web para la plataforma de gestión musical y de artistas.",
+      "highlights": [
+        "Desarrollo y mantenimiento de funcionalidades Full-Stack para herramientas internas y de cara al usuario",
+        "Trabajo con tecnologías frontend y backend para entregar soluciones integrales (end-to-end)",
+        "Mejora del rendimiento, usabilidad y fiabilidad de los sistemas existentes",
+        "Colaboración con los equipos de producto y negocio para lanzar nuevas funcionalidades"
+      ],
+      "stack": ["React", "Node.js", "PHP", "MySQL"],
+      "location": "Valencia, España",
       "url": "/"
     }
   ],
@@ -42,10 +66,10 @@
     {
       "institution": "I.E.S Enric Valor",
       "url": "https://portal.edu.gva.es/03007613/",
-      "area": "CFGS Desarrollo de Aplicaciones Web",
+      "area": "Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
       "studyType": "CFGS",
-      "startDate": "18/09/2023",
-      "endDate": "07/06/2025",
+      "startDate": "2023-09-18",
+      "endDate": "2025-06-07",
       "score": "",
       "courses": []
     }
@@ -53,47 +77,47 @@
   "skills": [
     {
       "name": "C",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
       "name": "C++",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
       "name": "C#",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
       "name": "Java",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Experto",
       "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "level": "Experto",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsivo"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Experto",
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "PHP",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
       "name": "Laravel",
-      "level": "Master",
+      "level": "Experto",
       "keywords": []
     },
     {
@@ -102,8 +126,8 @@
       "keywords": [
         "Desarrollo Web",
         "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
+        "Framework CSS",
+        "Diseño Responsivo"
       ]
     },
     {
@@ -134,14 +158,13 @@
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "keywords": ["Desarrollo Web", "Frontend", "Librería JavaScript", "UI"]
     },
     {
       "name": "Node.js",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "keywords": ["Desarrollo Web", "Frontend", "Entorno JavaScript", "UI"]
     }
-    
   ],
   "languages": [
     {
@@ -165,11 +188,38 @@
     {
       "name": "SemantiQ AI",
       "isActive": true,
-      "description": "Sistema de Análisis Inteligente de Documentos",
-      "highlights": ["AI", "RAG"],
+      "description": "Sistema Inteligente de Análisis de Documentos",
+      "highlights": ["IA", "RAG"],
       "url": "https://semantiqai.daw.iesevalorpego.es",
       "github": "https://github.com/looreenz/SemantiQ-AI"
+    },
+    {
+      "name": "Huming Dashboard & Marketplace",
+      "isActive": true,
+      "description": "Plataforma de Gestión Musical y de Artistas & Marketplace",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "Tailwind CSS"
+      ],
+      "url": "https://www.huming.pro/"
+    },
+    {
+      "name": "Proyecto UNNE",
+      "isActive": true,
+      "description": "Plataforma de Conexión entre Artesanos y Empresas",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "DDD",
+        "Tailwind CSS"
+      ]
     }
-    
   ]
 }
