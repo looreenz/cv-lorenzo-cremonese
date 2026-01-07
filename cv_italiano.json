@@ -1,0 +1,220 @@
+{
+  "basics": {
+    "name": "Lorenzo Cremonese",
+    "label": "Software Engineer",
+    "image": "/me.jpg",
+    "email": "lorenzo.cremonese@icloud.com",
+    "phone": "+34 603539416",
+    "url": "/",
+    "summary": "",
+    "location": {
+      "address": "Carrer del Garrofer, 5",
+      "postalCode": "03790",
+      "city": "Orba",
+      "countryCode": "ES",
+      "region": "Spagna"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "looreenz",
+        "url": "https://github.com/looreenz"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/lorenzo-cremonese-06b595358/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Progetto UNNE - Freelance",
+      "position": "Lead Frontend Engineer",
+      "startDate": "2026-01-05",
+      "endDate": "Attuale",
+      "summary": "Guida del design frontend, dell'architettura e dello sviluppo di una piattaforma che connette artigiani e aziende.",
+      "highlights": [
+        "Definizione e implementazione dell'architettura frontend utilizzando Next.js e TypeScript",
+        "Creazione di una UI accessibile, veloce e scalabile con Tailwind CSS (conforme WCAG)",
+        "Integrazione di API e gestione dello stato con un approccio orientato al prodotto",
+        "Ottimizzazione delle prestazioni e SEO tecnico per migliorare la visibilità organica",
+        "Definizione degli standard frontend, delle pratiche di testing e delle linee guida sulla qualità del codice"
+      ],
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "location": "Remoto — Valencia, Spagna",
+      "url": "/"
+    },
+    {
+      "name": "Huming Music SL",
+      "position": "Full-Stack Web Developer",
+      "startDate": "2025-06-16",
+      "endDate": "Attuale",
+      "summary": "Sviluppo e manutenzione di applicazioni web per la piattaforma di gestione musicale e artisti.",
+      "highlights": [
+        "Sviluppo e manutenzione di funzionalità Full-Stack per strumenti interni e rivolti agli utenti",
+        "Lavoro con tecnologie frontend e backend per fornire soluzioni end-to-end",
+        "Miglioramento delle prestazioni, dell'usabilità e dell'affidabilità dei sistemi esistenti",
+        "Collaborazione con i team di prodotto e business per il rilascio di nuove funzionalità"
+      ],
+      "stack": ["React", "Node.js", "PHP", "MySQL"],
+      "location": "Valencia, Spagna",
+      "url": "/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "I.E.S Enric Valor",
+      "url": "https://portal.edu.gva.es/03007613/",
+      "area": "Diploma di Tecnico Superiore in Sviluppo di Applicazioni Web (DAW)",
+      "studyType": "CFGS",
+      "startDate": "2023-09-18",
+      "endDate": "2025-06-07",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "C",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "Esperto",
+      "keywords": ["Sviluppo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Esperto",
+      "keywords": ["Sviluppo Web", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Esperto",
+      "keywords": ["Sviluppo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "PHP",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "Laravel",
+      "level": "Esperto",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzato",
+      "keywords": [
+        "Sviluppo Web",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzato",
+      "keywords": ["Database", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzato",
+      "keywords": ["Controllo Versioni", "Collaborazione", "Codice Sorgente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzato",
+      "keywords": [
+        "Controllo Versioni",
+        "Collaborazione",
+        "Codice Sorgente",
+        "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzato",
+      "keywords": ["Sviluppo Web", "Frontend", "Libreria JavaScript", "UI"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Avanzato",
+      "keywords": ["Sviluppo Web", "Frontend", "Runtime JavaScript", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italiano",
+      "fluency": "Madrelingua"
+    },
+    {
+      "language": "Spagnolo",
+      "fluency": "Avanzato"
+    },
+    {
+      "language": "Inglese",
+      "fluency": "Avanzato"
+    },
+    {
+      "language": "Valenciano",
+      "fluency": "Avanzato"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SemantiQ AI",
+      "isActive": true,
+      "description": "Sistema Intelligente di Analisi Documentale",
+      "highlights": ["IA", "RAG"],
+      "url": "https://semantiqai.daw.iesevalorpego.es",
+      "github": "https://github.com/looreenz/SemantiQ-AI"
+    },
+    {
+      "name": "Huming Dashboard & Marketplace",
+      "isActive": true,
+      "description": "Piattaforma di Gestione Musicale e Artisti & Marketplace",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "Tailwind CSS"
+      ],
+      "url": "https://www.huming.pro/"
+    },
+    {
+      "name": "Progetto UNNE",
+      "isActive": true,
+      "description": "Piattaforma di Connessione tra Artigiani e Aziende",
+      "highlights": [
+        "Next.js",
+        "TypeScript",
+        "Firebase",
+        "Google Cloud",
+        "CI/CD",
+        "DDD",
+        "Tailwind CSS"
+      ]
+    }
+  ]
+}
